@@ -1,0 +1,24 @@
+Comandos Git 9 de agosto
+-git init ---> Inicializar
+-git add ---> Agregar archivos/cambios al staging area
+-git commit ---> Guardar nuestros cambios en repositorio
+-git status ---> Saber el estado de nuestros proyecto
+-git branch ---> Listar las ramas
+-git branch nombre ---> Crear rama con ese nombre
+-git checkout nombre ---> Cambiar a la rama indicada
+-git log ---> Listar historial de commits
+-git branch -d nombre ----> Borra rama 
+-git remote add origin + url ---> sube a github la info
+-git remote -v ---> validar lo subido al repositorio github
+-git remote rm origin ---> remueve lo subido al repositorio remoto
+-git pull origin + rama ---> trae informacion subida al repositorio 
+-git pull origin + rama --allow-unrelated-histories ---> trae informacion completa del repositorio al equipo
+-git pull origin master ---> validar si tenemos en el reositorio la ultima version
+- git push origin master ---> 
+<---- importar desde git hub ------>
+
+-git clone https://github.com/DanielMezaAcademlo/portafolio.git
+-git branch
+-git fetch
+-git fetch --all
+-git branch -r
