@@ -1,7 +1,13 @@
 Comandos Git 9 de agosto
 -git init ---> Inicializar
+-git init --bare ----> inicializa un servidor remoto
+-git remote --->
+-git push servidor branch---> empuja informacion al servidor
+-git clone /c/usuarios/ramsblack------> clona desde el servidor remoto
 -git add ---> Agregar archivos/cambios al staging area
--git commit ---> Guardar nuestros cambios en repositorio
+-git config --global user.email "" ---> Agrega email del autor de los cambios
+-git config --global user.name "" ----> Agrega nombre del autor de los cambios
+-git commit -m "" ---> Guardar nuestros cambios en repositorio
 -git status ---> Saber el estado de nuestros proyecto
 -git branch ---> Listar las ramas
 -git branch nombre ---> Crear rama con ese nombre
